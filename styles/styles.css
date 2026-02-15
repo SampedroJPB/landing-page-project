@@ -144,6 +144,31 @@ a {
 }
 /* Info Section */
 
+/* Quote Section */
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 20%;
+}
+
+.quote-container-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-container-quotee {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+/* Quote Section */
 
 .footer-container {
     background-color: #1F2937;
