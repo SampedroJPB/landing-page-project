@@ -64,7 +64,7 @@ a {
 .hero-container-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 8px;
 }
 
@@ -96,13 +96,15 @@ a {
     border: none;
     padding: 8px 32px;
     margin: 0;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .hero-container-right img {
-    border-radius: 12px;
     width: 100%;
     height: auto;
+    object-fit: cover;
+    border-radius: 12px;
 }
 /* Hero Section */
 
@@ -221,6 +223,7 @@ a {
     font-weight: 600;
 }
 /* Call to action Section */
+
 .footer-container {
     background-color: #1F2937;
     color: white;
